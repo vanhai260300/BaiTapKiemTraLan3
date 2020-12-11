@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="#FFF"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/dil_img"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pb1"
+            android:layout_margin="5dp"
+            android:layout_gravity="left"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/dil_tenmon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Sô cô la lúa mạch nóng"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/dil_gia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="69.000đ"
+                android:textColor="#000" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_favorite_border_24"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:text="Yêu thích"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="#EEE"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Giới thiệu"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="17dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Sô cô la thơm lừng bao bọc hạt Mắc ca bùi béo thiệt ngon - món ăn vặt đắng nhẹ, ngọt ngào không thể thiếu cho mùa Giáng sinh ấm áp, cắn 1 miếng là mê ngay và nhâm nhi với món nước nào cũng hợp đấy."
+        android:textColor="#000" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEE"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:background="#FFF">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="left">
+            <ImageView
+                android:id="@+id/tru"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_remove"/>
+            <TextView
+                android:id="@+id/sl"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:text="2"/>
+            <ImageView
+                android:id="@+id/cong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_add"/>
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="138.000đ"
+            android:textSize="17dp"
+            android:background="@drawable/bt_em"
+            android:textColor="#FFF"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:layout_gravity="right"/>
+    </FrameLayout>
+
+
+</LinearLayout>
